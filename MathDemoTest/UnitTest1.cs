@@ -14,5 +14,14 @@ namespace MathDemoTest
 
             Assert.AreEqual(7, pgm.SummationValue(6, 1));
         }
+
+        [TestMethod]
+        public void MultiplyTest()
+        {
+            Program pgm = new Program();
+
+            Assert.AreEqual(6, pgm.Multiply(6, 1));
+        }
+
     }
 }
