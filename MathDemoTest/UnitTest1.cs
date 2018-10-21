@@ -10,9 +10,9 @@ namespace MathDemoTest
         [TestMethod]
         public void TestMethod1()
         {
-            Program pgm = new Program();
+            ////Program pgm = new Program();
 
-            Assert.AreEqual(7, pgm.SummationValue(6, 1));
+            Assert.AreEqual(7, Program.SummationValue(6, 1));
         }
 
         [TestMethod]

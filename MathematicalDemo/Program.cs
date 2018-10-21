@@ -8,14 +8,14 @@ namespace MathematicalDemo
 {
     public class Program
     {
-         void Main(string[] args)
+         static void Main(string[] args)
         {
            int value = SummationValue(4, 3);
            
             Console.WriteLine("Summed up value is : " + value);
         }
 
-        public int SummationValue(int a, int b)
+        public static int SummationValue(int a, int b)
         {
             return (a + b);
         }
