@@ -23,5 +23,13 @@ namespace MathDemoTest
             Assert.AreEqual(6, pgm.Multiply(6, 1));
         }
 
+		[TestMethod]
+        public void DivideTest()
+        {
+            Program pgm = new Program();
+
+            Assert.AreEqual(6, pgm.Multiply(6, 1));
+        }
+
     }
 }
